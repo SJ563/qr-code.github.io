@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+  <style>
+    *{
+      height: 100%;
+      width: 100%;
+      margin: 0px 0px;
+      padding: 0px 0px;
+      box-sizing: border-box;
+    }
+    .container{
+      height: 100%;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: hsl(212, 45%, 89%);
+      padding: 20px;
+      box-sizing: border-box;
+      font-family: 'Outfit', sans-serif;
+    }
+    .card{
+      height: 60%;
+      width: 20%;
+      background-color: hsl(0, 0%, 100%);
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      box-shadow: 5px 5px 5px hsl(220, 15%, 55%);
+      box-sizing: border-box;
+    }
+    .card img{
+      height: 110%;
+      width: 100%;
+      border-radius: 10px;
+      margin: 20px 0px;
+      box-sizing: border-box;
+      object-fit: cover;
+      box-shadow: 5px 5px 5px hsl(220, 15%, 55%);
+      margin-top: 0px;
+    }
+    .card h1{
+      font-size: 20px;
+      font-weight: 700;
+      color: hsl(218, 44%, 22%);
+      margin: 20px 0px;
+      text-align: center;
+      margin-top: 0px;
+    }
+    .card p{
+      font-size: 15px;
+      font-weight: 400;
+      color: hsl(220, 15%, 55%);
+      text-align: center;
+      margin: 20px 0px;
+      margin-top: 0px;
+    }
+  </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <img src="image-qr-code.png" alt="QR code">
+        <h1>Improve your front-end skills by building projects</h1>
+        <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+      </div>
+    </div>
+
+  </body>
+  </html>
